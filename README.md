@@ -1,5 +1,7 @@
 # DAVIS simulator
 
+## We have released a much more powerful version of this event camera simulator. Check it out [here](https://github.com/uzh-rpg/rpg_esim).
+
 ## How does it work?
 
 <img src="pipeline.png" width="850">
@@ -42,7 +44,7 @@ Checkout the necessary dependencies:
 
 - rpg_dvs_ros (https://github.com/uzh-rpg/rpg_dvs_ros)
 
-	```git clone https://github.com/uzh-rpg/rpg_dvs_ros```
+		git clone https://github.com/uzh-rpg/rpg_dvs_ros
 
 - OpenEXR
 
@@ -58,11 +60,11 @@ Read more about this openexr python package here: http://excamera.com/sphinx/art
 
 - Install Blender
 	
-      ```sudo apt-get install blender```
+      sudo apt-get install blender
 
 - Install Python3
 
-      ```sudo apt-get install python3-dev python3-numpy python3-yaml```
+      sudo apt-get install python3-dev python3-numpy python3-yaml
 
 In ``/usr/lib/python3/dist-packages`` you should now have a ``yaml`` and ``numpy`` folder. This path is added in the ``scripts/prepare_dataset.py``.
 
