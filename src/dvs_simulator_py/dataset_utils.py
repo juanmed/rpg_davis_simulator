@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-import yaml
+#import yaml
 import cv2
-import OpenEXR
-import Imath
+#import OpenEXR
+#import Imath
 import numpy as np
 from math import fabs, sqrt
 
